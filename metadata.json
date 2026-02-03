@@ -1,0 +1,8 @@
+{
+  "name": "Adriatica Soul - Boutique B&B",
+  "description": "A luxury boutique Bed & Breakfast on the Adriatic coast. Experience seaside serenity with modern Italian design and personalized AI travel assistance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
