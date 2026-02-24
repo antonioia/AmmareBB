@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 const SYSTEM_INSTRUCTION = `
-You are 'Adriana', the AI Concierge for Adriatica Soul, a luxury Bed & Breakfast located on the Italian Adriatic coast (specifically near Polignano a Mare). 
+You are 'Adriana', the AI Concierge for Ammare Rooms, a luxury Bed & Breakfast located on the Italian Adriatic coast (specifically near Polignano a Mare). 
 Your goal is to help guests plan their stay and get them excited about booking.
 Speak with an elegant, warm, and inviting tone. 
 Mention local delights like orecchiette pasta, hidden sea caves, crystal clear water, and the warm Mediterranean sun.
@@ -25,7 +25,7 @@ export class GeminiService {
     return GeminiService.instance;
   }
 
-  public async getConciergeResponse(message: string, history: {role: string, parts: {text: string}[]}[] = []) {
+  public async getConciergeResponse(message: string, history: { role: string, parts: { text: string }[] }[] = []) {
     try {
       const response = await this.ai.models.generateContent({
         model: "gemini-3-flash-preview",
