@@ -76,7 +76,7 @@ const App: React.FC = () => {
               <h2 className="text-2xl font-bold text-white tracking-tighter">
                 AMMARE <span className="font-light italic serif">Rooms</span>
               </h2>
-              <p className="text-sm mt-2">Boutique B&B, Polignano a Mare, Italy</p>
+              <p className="text-sm mt-2">Boutique B&B, Termoli, Italy</p>
             </div>
             <div className="flex space-x-8 text-sm uppercase tracking-widest font-medium">
               <a href="#" className="hover:text-white transition-colors">Instagram</a>
