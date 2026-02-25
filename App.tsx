@@ -8,7 +8,7 @@ import SeasidePictures from './components/SeasidePictures';
 import SocialProof from './components/SocialProof';
 import SectionDivider from './components/SectionDivider';
 import CTASection from './components/CTASection';
-import ConciergeChat from './components/ConciergeChat';
+
 import RoomDetail from './components/RoomDetail';
 
 type Route = { page: 'home' } | { page: 'room'; roomId: 'sand' | 'sea' };
@@ -94,8 +94,6 @@ const App: React.FC = () => {
         </div>
       </footer>
 
-      {/* Floating AI Concierge */}
-      <ConciergeChat />
     </div>
   );
 };
