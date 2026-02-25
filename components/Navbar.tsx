@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   const solidNav = isScrolled || isRoomPage;
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-150 ease-out ${solidNav ? 'bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-lg py-3' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 ${solidNav ? 'bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-lg py-3' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#/" className={`text-2xl font-bold transition-colors ${solidNav ? 'text-primary' : 'text-white drop-shadow-md'}`}>
           AMMARE <span className="font-serif italic font-normal">Rooms</span>
